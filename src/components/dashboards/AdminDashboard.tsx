@@ -26,6 +26,7 @@ import UserManagement from './admin/UserManagement';
 import MappingReviewer from './admin/MappingReviewer';
 import ApiSync from './admin/ApiSync';
 import AuditLogs from './admin/AuditLogs';
+import InsuranceClaimManager from './admin/InsuranceClaimManager';
 import type { User } from '../../App';
 
 interface AdminDashboardProps {
@@ -33,7 +34,7 @@ interface AdminDashboardProps {
   onLogout: () => void;
 }
 
-type AdminView = 'dashboard' | 'users' | 'mapping' | 'sync' | 'logs';
+type AdminView = 'dashboard' | 'users' | 'mapping' | 'sync' | 'logs' | 'insurance';
 
 const AdminDashboard: React.FC<AdminDashboardProps> = ({ user, onLogout }) => {
   const { theme, toggleTheme } = useTheme();
@@ -43,6 +44,7 @@ const AdminDashboard: React.FC<AdminDashboardProps> = ({ user, onLogout }) => {
   const menuItems = [
     { id: 'dashboard', label: 'Dashboard', icon: Activity, active: currentView === 'dashboard' },
     { id: 'users', label: 'User Management', icon: Users, active: currentView === 'users' },
+    { id: 'insurance', label: 'Insurance Claims', icon: Shield, active: currentView === 'insurance' },
     { id: 'mapping', label: 'Mapping Reviewer', icon: Settings, active: currentView === 'mapping' },
     { id: 'sync', label: 'API Sync', icon: Database, active: currentView === 'sync' },
     { id: 'logs', label: 'Audit Logs', icon: FileText, active: currentView === 'logs' },
@@ -54,6 +56,8 @@ const AdminDashboard: React.FC<AdminDashboardProps> = ({ user, onLogout }) => {
         return <AdminDashboardHome user={user} />;
       case 'users':
         return <UserManagement />;
+      case 'insurance':
+        return <InsuranceClaimManager />;
       case 'mapping':
         return <MappingReviewer />;
       case 'sync':

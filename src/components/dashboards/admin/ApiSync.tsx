@@ -24,7 +24,7 @@ import { Label } from '../../ui/label';
 import { Input } from '../../ui/input';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '../../ui/select';
 import { Switch } from '../../ui/switch';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 
 const ApiSync: React.FC = () => {
   const [isRunningSync, setIsRunningSync] = useState(false);
