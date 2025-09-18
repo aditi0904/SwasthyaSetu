@@ -42,7 +42,7 @@ const UserManagement: React.FC = () => {
       status: 'active',
       lastLogin: '2024-01-15 10:30 AM',
       createdAt: '2023-08-15',
-      avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=rajesh',
+      avatar: './man.png',
       department: 'Cardiology',
       licenseNumber: 'MED123456'
     },
@@ -54,7 +54,7 @@ const UserManagement: React.FC = () => {
       status: 'active',
       lastLogin: '2024-01-14 2:15 PM',
       createdAt: '2023-11-20',
-      avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=priya',
+      avatar: './woman.png',
       phone: '+91 98765 43210',
       age: 32
     },
@@ -66,7 +66,7 @@ const UserManagement: React.FC = () => {
       status: 'active',
       lastLogin: '2024-01-15 9:00 AM',
       createdAt: '2023-01-01',
-      avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=admin',
+      avatar: './man.png',
       role: 'Super Admin',
       permissions: ['all']
     },
@@ -78,7 +78,7 @@ const UserManagement: React.FC = () => {
       status: 'inactive',
       lastLogin: '2024-01-10 4:45 PM',
       createdAt: '2023-05-10',
-      avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=meera',
+      avatar: './woman.png',
       department: 'Pediatrics',
       licenseNumber: 'MED789012'
     },
@@ -90,7 +90,7 @@ const UserManagement: React.FC = () => {
       status: 'suspended',
       lastLogin: '2024-01-05 11:20 AM',
       createdAt: '2023-12-01',
-      avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=amit',
+      avatar: './man.png',
       phone: '+91 87654 32109',
       age: 28
     }

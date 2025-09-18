@@ -39,7 +39,7 @@ const ProblemListHistory: React.FC = () => {
       age: 45,
       gender: 'Male',
       phone: '+91 98765 43210',
-      avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=rajesh',
+      avatar: './man.png',
       status: 'active',
       lastVisit: '2024-01-15',
       vitals: {
@@ -79,7 +79,7 @@ const ProblemListHistory: React.FC = () => {
       age: 32,
       gender: 'Female',
       phone: '+91 87654 32109',
-      avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=priya',
+      avatar: './woman.png',
       status: 'monitoring',
       lastVisit: '2024-01-12',
       vitals: {
@@ -110,7 +110,7 @@ const ProblemListHistory: React.FC = () => {
       age: 28,
       gender: 'Male',
       phone: '+91 76543 21098',
-      avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=amit',
+      avatar: './man.png',
       status: 'recovered',
       lastVisit: '2024-01-08',
       vitals: {

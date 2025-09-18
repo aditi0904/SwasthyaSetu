@@ -1,4 +1,8 @@
 import React from 'react';
+<<<<<<< HEAD
+=======
+
+>>>>>>> 63416a3 (added icons and public folder)
 import { motion } from 'motion/react';
 import { 
   Users, 
@@ -66,7 +70,7 @@ const DoctorDashboardHome: React.FC<DoctorDashboardHomeProps> = ({ user }) => {
       condition: 'Hypertension', 
       status: 'Stable', 
       lastVisit: '2 hours ago',
-      avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=rajesh'
+      avatar:"./man.png"
     },
     { 
       id: '2', 
@@ -75,7 +79,7 @@ const DoctorDashboardHome: React.FC<DoctorDashboardHomeProps> = ({ user }) => {
       condition: 'Diabetes Type 2', 
       status: 'Monitoring', 
       lastVisit: '1 day ago',
-      avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=priya'
+      avatar: './woman.png'
     },
     { 
       id: '3', 
@@ -84,7 +88,11 @@ const DoctorDashboardHome: React.FC<DoctorDashboardHomeProps> = ({ user }) => {
       condition: 'Allergic Rhinitis', 
       status: 'Recovered', 
       lastVisit: '3 days ago',
+<<<<<<< HEAD
       avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=amit'
+=======
+      avatar: './man.png'
+>>>>>>> 63416a3 (added icons and public folder)
     },
     { 
       id: '4', 
@@ -93,7 +101,11 @@ const DoctorDashboardHome: React.FC<DoctorDashboardHomeProps> = ({ user }) => {
       condition: 'Arthritis', 
       status: 'Treatment', 
       lastVisit: '1 week ago',
+<<<<<<< HEAD
       avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=sunita'
+=======
+      avatar: './woman.png'
+>>>>>>> 63416a3 (added icons and public folder)
     },
   ];
 

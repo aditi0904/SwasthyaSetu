@@ -78,7 +78,7 @@ const InsuranceClaimManager: React.FC = () => {
     {
       id: 'CLM-001',
       patientName: 'Rajesh Kumar',
-      patientAvatar: 'https://images.unsplash.com/photo-1676552055618-22ec8cde399a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoYXBweSUyMHBhdGllbnQlMjBoZWFsdGhjYXJlJTIwcG9ydHJhaXR8ZW58MXx8fHwxNzU4MjAzODE0fDA&ixlib=rb-4.1.0&q=80&w=1080',
+      patientAvatar: './man.png',
       diagnosis: 'Essential (primary) hypertension',
       diagnosisCode: 'I10',
       insuranceProvider: 'Star Health',
@@ -90,7 +90,7 @@ const InsuranceClaimManager: React.FC = () => {
     {
       id: 'CLM-002',
       patientName: 'Priya Patel',
-      patientAvatar: 'https://images.unsplash.com/photo-1676552055618-22ec8cde399a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoYXBweSUyMHBhdGllbnQlMjBoZWFsdGhjYXJlJTIwcG9ydHJhaXR8ZW58MXx8fHwxNzU4MjAzODE0fDA&ixlib=rb-4.1.0&q=80&w=1080',
+      patientAvatar: './woman.png',
       diagnosis: 'Type 2 diabetes mellitus without complications',
       diagnosisCode: 'E11.9',
       insuranceProvider: 'HDFC ERGO',
@@ -104,7 +104,7 @@ const InsuranceClaimManager: React.FC = () => {
     {
       id: 'CLM-003',
       patientName: 'Amit Verma',
-      patientAvatar: 'https://images.unsplash.com/photo-1676552055618-22ec8cde399a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoYXBweSUyMHBhdGllbnQlMjBoZWFsdGhjYXJlJTIwcG9ydHJhaXR8ZW58MXx8fHwxNzU4MjAzODE0fDA&ixlib=rb-4.1.0&q=80&w=1080',
+      patientAvatar: './man.png',
       diagnosis: 'Acute nasopharyngitis (common cold)',
       diagnosisCode: 'J00',
       insuranceProvider: 'ICICI Lombard',
@@ -117,7 +117,7 @@ const InsuranceClaimManager: React.FC = () => {
     {
       id: 'CLM-004',
       patientName: 'Sunita Devi',
-      patientAvatar: 'https://images.unsplash.com/photo-1676552055618-22ec8cde399a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoYXBweSUyMHBhdGllbnQlMjBoZWFsdGhjYXJlJTIwcG9ydHJhaXR8ZW58MXx8fHwxNzU4MjAzODE0fDA&ixlib=rb-4.1.0&q=80&w=1080',
+      patientAvatar: './woman.png',
       diagnosis: 'Asthma, unspecified',
       diagnosisCode: 'J45.9',
       insuranceProvider: 'New India Assurance',

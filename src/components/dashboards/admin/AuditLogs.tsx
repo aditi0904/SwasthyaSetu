@@ -41,7 +41,7 @@ const AuditLogs: React.FC = () => {
         name: 'Dr. Rajesh Sharma',
         email: 'rajesh.sharma@hospital.com',
         type: 'doctor',
-        avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=rajesh'
+        avatar: './man.png'
       },
       action: 'patient_data_access',
       resource: 'Patient Record - Priya Patel (ID: PAT123)',
@@ -59,7 +59,7 @@ const AuditLogs: React.FC = () => {
         name: 'Admin Kumar',
         email: 'admin@swasthyasetu.com',
         type: 'admin',
-        avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=admin'
+        avatar: './man.png'
       },
       action: 'user_management',
       resource: 'User Account - Dr. Meera Singh',
@@ -77,7 +77,7 @@ const AuditLogs: React.FC = () => {
         name: 'System',
         email: 'system@swasthyasetu.com',
         type: 'system',
-        avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=system'
+        avatar: './woman.png'
       },
       action: 'data_backup',
       resource: 'Patient Database',
@@ -95,7 +95,7 @@ const AuditLogs: React.FC = () => {
         name: 'Unauthorized User',
         email: 'unknown@example.com',
         type: 'unknown',
-        avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=unknown'
+        avatar: './man.png'
       },
       action: 'failed_login',
       resource: 'Admin Panel',
@@ -113,7 +113,7 @@ const AuditLogs: React.FC = () => {
         name: 'Priya Patel',
         email: 'priya.patel@gmail.com',
         type: 'patient',
-        avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=priya'
+        avatar: './woman.png'
       },
       action: 'insurance_claim',
       resource: 'Insurance Claim - CLM001',
@@ -131,7 +131,7 @@ const AuditLogs: React.FC = () => {
         name: 'Dr. Amit Verma',
         email: 'amit.verma@clinic.com',
         type: 'doctor',
-        avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=amit'
+        avatar: './man.png'
       },
       action: 'diagnosis_entry',
       resource: 'Diagnosis Record - DGN456',
@@ -149,7 +149,7 @@ const AuditLogs: React.FC = () => {
         name: 'System',
         email: 'system@swasthyasetu.com',
         type: 'system',
-        avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=system'
+        avatar: './woman.png'
       },
       action: 'api_sync_error',
       resource: 'NAMASTE Mapping Service',

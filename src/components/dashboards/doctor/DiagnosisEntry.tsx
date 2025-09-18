@@ -45,7 +45,7 @@ const DiagnosisEntry: React.FC = () => {
       age: 45,
       gender: 'Male',
       phone: '+91 98765 43210',
-      avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=rajesh',
+      avatar: './man.png',
       allergies: ['Penicillin', 'Peanuts'],
       lastVisit: '2024-01-10'
     },
@@ -55,7 +55,7 @@ const DiagnosisEntry: React.FC = () => {
       age: 32,
       gender: 'Female',
       phone: '+91 87654 32109',
-      avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=priya',
+      avatar: './woman.png',
       allergies: ['Lactose'],
       lastVisit: '2024-01-08'
     },
@@ -65,7 +65,7 @@ const DiagnosisEntry: React.FC = () => {
       age: 28,
       gender: 'Male',
       phone: '+91 76543 21098',
-      avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=amit',
+      avatar: './man.png',
       allergies: [],
       lastVisit: '2024-01-12'
     }
