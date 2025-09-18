@@ -32,7 +32,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onLogin }) => {
       name,
       email,
       type: userType,
-      avatar: `https://api.dicebear.com/7.x/avataaars/svg?seed=${email}`
+      avatar: `./man.png?seed=${email}`
     };
     
     onLogin(user);
