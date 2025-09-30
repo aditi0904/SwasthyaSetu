@@ -1,0 +1,16 @@
+{
+  "resourceType": "Bundle",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "code": {
+          "coding": [
+            {"system": "NAMASTE", "code": "A001", "display": "Jwara"},
+            {"system": "ICD11", "code": "ICD11_123", "display": "Fever"}
+          ]
+        }
+      }
+    }
+  ]
+}

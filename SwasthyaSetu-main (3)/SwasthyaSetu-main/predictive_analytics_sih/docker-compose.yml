@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=sqlite:///./emr_system.db
+      - GOOGLE_PROJECT_ID=namaste-472613
+      - GOOGLE_SERVICE_ACCOUNT_PATH=/app/config/service_account.json
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    depends_on:
+      - db
+    restart: unless-stopped
+
+  db:
+    image: postgres:15
+    environment:
+      - POSTGRES_DB=emr_system
+      - POSTGRES_USER=emr_user
+      - POSTGRES_PASSWORD=emr_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    restart: unless-stopped
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    restart: unless-stopped
+
+volumes:
+  postgres_data:

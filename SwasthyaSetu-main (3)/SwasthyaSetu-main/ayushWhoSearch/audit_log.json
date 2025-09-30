@@ -1,0 +1,10 @@
+[
+  {
+    "timestamp": "2025-09-19T14:20:45.123Z",
+    "action": "icd_sync",
+    "details": {
+      "triggered_by": "system",
+      "counts": {"new_terms": 120, "updated_terms": 35}
+    }
+  }
+]

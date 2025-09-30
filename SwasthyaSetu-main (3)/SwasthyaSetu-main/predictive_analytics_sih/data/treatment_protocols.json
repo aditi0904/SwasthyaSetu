@@ -1,0 +1,53 @@
+{
+  "treatment_protocols": {
+    "hypertension": {
+      "allopathy": {
+        "first_line": ["ACE inhibitors", "Calcium channel blockers", "Diuretics"],
+        "monitoring": ["Blood pressure", "Kidney function", "Electrolytes"],
+        "lifestyle": ["Low sodium diet", "Regular exercise", "Weight management"]
+      },
+      "ayurveda": {
+        "herbs": ["Arjuna", "Punarnava", "Gokshura", "Jatamansi"],
+        "formulations": ["Arjunarishta", "Punarnavadi Mandoor", "Saraswatarishta"],
+        "panchakarma": ["Shirodhara", "Abhyanga", "Swedana"],
+        "diet": ["Avoid excess salt", "Include garlic, onion", "Fresh fruits and vegetables"],
+        "lifestyle": ["Pranayama", "Meditation", "Regular sleep schedule"]
+      },
+      "homeopathy": {
+        "constitutional": ["Natrum muriaticum", "Aurum metallicum", "Baryta carbonica"],
+        "symptom_based": ["Crataegus", "Rauwolfia", "Viscum album"],
+        "potency": "30C to 200C based on symptom totality"
+      },
+      "yoga": {
+        "asanas": ["Shavasana", "Balasana", "Sukhasana", "Paschimottanasana"],
+        "pranayama": ["Nadi Shodhana", "Bhramari", "Sheetali"],
+        "meditation": ["Mindfulness", "Body scan", "Loving-kindness"]
+      }
+    },
+    "diabetes": {
+      "allopathy": {
+        "first_line": ["Metformin", "Lifestyle modifications"],
+        "second_line": ["Sulfonylureas", "DPP-4 inhibitors", "SGLT-2 inhibitors"],
+        "monitoring": ["HbA1c", "Fasting glucose", "Kidney function", "Eye examination"],
+        "lifestyle": ["Carbohydrate counting", "Regular exercise", "Weight management"]
+      },
+      "ayurveda": {
+        "herbs": ["Gudmar", "Karela", "Jamun", "Methi", "Haridra"],
+        "formulations": ["Madhunashini Vati", "Chandraprabha Vati", "Nisha Amalaki"],
+        "panchakarma": ["Udwartana", "Basti", "Virechana"],
+        "diet": ["Low glycemic index foods", "Bitter vegetables", "Avoid sweet and heavy foods"],
+        "lifestyle": ["Regular meal timings", "Moderate exercise", "Stress management"]
+      },
+      "homeopathy": {
+        "constitutional": ["Phosphorus", "Lycopodium", "Sulphur"],
+        "symptom_based": ["Uranium nitricum", "Syzygium jambolanum", "Cephalandra indica"],
+        "potency": "6C to 30C for frequent dosing, higher potencies for constitutional treatment"
+      },
+      "yoga": {
+        "asanas": ["Surya Namaskara", "Dhanurasana", "Paschimottanasana", "Ardha Matsyendrasana"],
+        "pranayama": ["Kapalbhati", "Bhastrika", "Anulom Vilom"],
+        "meditation": ["Trataka", "Yoga Nidra"]
+      }
+    }
+  }
+}
